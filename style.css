@@ -4,3 +4,54 @@ Body {
     font-family: "Jost", sans-serif;
     font-size: 1.2em;
 }
+
+header, 
+footer {
+    border: 3px solid #ECB674 ;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: "Parisienne", cursive;
+    font-size: 1.4em;
+}
+
+nav .nav-links {
+    margin-left: 300px;
+}
+
+nav .nav-links a{
+    flex-wrap: wrap;
+    color:#f28691;
+    margin-right: 30px;
+}
+
+.logo-link  {
+    position: relative;
+}
+
+.logo-link:hover {
+    opacity: 0.7;
+}
+
+a {
+    text-decoration: none;   
+}
+
+.nav-links a:hover {
+    opacity: 0.7;
+}
+
+@media screen and (max-width:996px) {
+    nav .nav-links {
+        margin-left: 0px;
+        margin-right: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }  
+}
